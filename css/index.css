@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+/* ######### NAVBAR ######### */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 4rem;
+	margin-top: 5rem;
+}
+
+.nav-items {
+	display: flex;
+}
+
+.nav-item {
+	padding: 0 2.5rem;
+	font-size: 2rem;
+}
+
+.active-item {
+	color: #f46440;
+}
+
+/* ########## Hero left Section ######### */
+
+.intro-section {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 4rem;
+	height: 95vh;
+
+	max-height: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.left-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	height: 60vh;
+	margin-top: 5rem;
+}
+
+.left-section h3 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 3rem;
+}
+
+.left-section h3 img {
+	display: inline-block;
+	margin-left: 1.5rem;
+	height: 4rem;
+	margin-bottom: 4rem;
+}
+
+.left-section h1 {
+	font-size: 6rem;
+	font-family: "Fredoka One", cursive;
+	letter-spacing: 0.3rem;
+	margin-bottom: 3rem;
+}
+
+.sub-headlines {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-left: 8rem;
+	flex: 0 1 45rem;
+}
+
+.sub-headlines img {
+	height: 2rem;
+	display: inline-block;
+}
+
+.sub-headlines h5 {
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: lighter;
+}
+
+.text {
+	padding-bottom: 5rem;
+	font-size: 1.3rem;
+	width: 65%;
+}
+
+.action-btns {
+	display: flex;
+}
+
+.action-btn {
+	font-size: 1.2rem;
+	padding: 1.2rem 3rem;
+	border: none;
+	color: #fff;
+	border-radius: 5rem;
+	background-color: #f46440;
+	margin-left: 1.5rem;
+	margin-top: -2rem;
+}
+
+/* ######### Hero Section Right ######### */
+
+.right-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 60%;
+	position: relative;
+	margin-top: -12rem;
+}
+
+.headphone-div {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+}
+
+.headphone-div img:first-child {
+	height: 11rem;
+	margin-left: 5rem;
+	position: absolute;
+	bottom: 25rem;
+	right: 34rem;
+}
+
+.discount-content {
+	margin-left: 5rem;
+	position: absolute;
+	bottom: 27rem;
+	right: 35.5rem;
+	color: #fff;
+}
+
+.discount-content h4 {
+	font-size: 1.3rem;
+	margin-bottom: -1.5rem;
+	margin-left: 1.2rem;
+}
+
+.discount-content h1 {
+	font-size: 3.8rem;
+}
+
+.headphone-div img:last-child {
+	height: 55vh;
+	margin-top: -5rem;
+}
+
+.dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+
+.yellow-dot {
+	height: 2rem;
+	width: 2rem;
+	background-color: #fbd104;
+	border-radius: 3rem;
+	margin-right: 1.2rem;
+}
+
+.tomato-dot {
+	height: 2rem;
+	width: 2rem;
+	background-color: #fe5e35;
+	border-radius: 3rem;
+	margin-right: 1.2rem;
+}
+
+.black-dot {
+	height: 2rem;
+	width: 2rem;
+	background-color: #000;
+	border-radius: 3rem;
+}
+
+.action-btn {
+	align-self: center;
+}
