@@ -72,6 +72,7 @@
 	.text {
 		font-size: 1.6rem;
 		text-align: center;
+		width: 100%;
 	}
 
 	.right-section {
@@ -129,10 +130,6 @@
 
 	.sub-headlines h5 {
 		font-size: 1.6rem;
-	}
-
-	.text {
-		font-size: 1.4rem;
 	}
 }
 
